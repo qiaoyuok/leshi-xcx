@@ -1,0 +1,82 @@
+/**index.wxss**/
+.logo{
+  width: 300rpx;
+  margin-top: 100rpx;
+  margin-bottom:50rpx;
+}
+form{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+form .item{
+  width: 90%;
+  height: 80rpx;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  border: 1rpx solid #ddd;
+  border-radius: 15rpx;
+}
+form .item image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+}
+form .item input{
+  font-size: 33rpx;
+  flex-grow: 1;
+}
+button::after{
+border:none;
+}
+input{
+outline:none;
+border:none;
+list-style: none;
+}
+button{
+  width: 90%;
+  margin-top: 50rpx;
+  background: #009DE6;
+  color: #fff;
+}
+button.buthover{
+  background: rgb(80, 182, 230);
+}
+
+.notice{
+  width: 100%;
+  /* height: 500rpx; */
+  /* background: #ddd; */
+  box-sizing: border-box;
+  padding: 20rpx;
+
+}
+.notice .tip{
+  width: 100%;
+  font-size: 36rpx;
+  color: red;
+  margin-bottom: 30rpx;
+  margin-top: 50rpx;
+}
+.notice .item{
+  font-size: 30rpx;
+  height: 60rpx;
+  color: gray;
+}
+.bottom{
+  width: 100%;
+  height: 80rpx;
+  background: #ddd;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  color: #fff;
+}

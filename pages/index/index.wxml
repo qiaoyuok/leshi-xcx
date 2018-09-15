@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <image class='logo' mode='widthFix' src='/images/logo.png'></image>
+  <form bindsubmit='login'>
+    <view class='item'>
+      <image src='/images/username.png'></image>
+      <input name="username" value="{{username}}" type="text" placeholder='请输入登录账号'></input>
+    </view>
+    <view class='item'>
+      <image src='/images/pwd.png'></image>
+      <input name="password" value="{{password}}" type="password" placeholder='请输入登录密码'></input>
+    </view>
+    <button hover-class='buthover' form-type='submit'>登录</button>
+  </form>
+
+  <view class='notice'>
+    <view class='tip'>温馨提示：</view>
+    <view class='item'>一：仅用于个人账号的登陆测试，切勿他用；</view>
+    <view class='item'>二：绝对安全无后门，放心使用；</view>
+    <view class='item'>三：登录成功后即可在官网或APP上无障碍登录。</view>
+  </view>
+
+  <view class='bottom'>BY 雨后桥前 & 版本号：v1.0.0 </view>
+</view>

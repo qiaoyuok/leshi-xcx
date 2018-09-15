@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#009DE6",
+    "navigationBarTitleText": "乐视免验证登录测试",
+    "navigationBarTextStyle":"white"
+  }
+}
